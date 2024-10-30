@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KC S2M+MC Free\n"
+"POT-Creation-Date: 2015-05-27 12:45+0200\n"
+"PO-Revision-Date: 2015-05-27 12:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../kc-s2m-mc-free.php:49
+msgid "Check for synchronization"
+msgstr "Check for synchronization"
+
+#: ../kc-s2m-mc-free.php:81
+msgid "Site members and MailChimp&#174; lists are not synchronized."
+msgstr "Site members and MailChimp&#174; lists are not synchronized."
+
+# Note that this is a "JavaScript alert" text, an "new row" there needs to be "\\n" instead "<br>", so don't change these, please.
+#: ../kc-s2m-mc-free.php:81
+#, php-format
+msgid ""
+"In fact, there is no way all accounts to be synchronized, because there is lot of cases and exceptions. MailChimp&#174; can "
+"report events slower, a member can not receive the confirmation email from MailChimp&#174;, or not click the link yet, or "
+"member is admin in the site - all these and others can cause differences in list of members at MailChimp&#174; and site.\\n"
+"\\nBest way to see if the plugin works is to test manually. Create a new user in your MailChimp&#174; list and check if it will "
+"be created in WordPress. Well, needs confirmation etc... If this do not works, click `%s` button, wait 5-10 min "
+"(MailChimp&#174; can be slow) and test again."
+msgstr ""
+"In fact, there is no way all accounts to be synchronized, because there is lot of cases and exceptions. MailChimp&#174; can "
+"report events slower, a member can not receive the confirmation email from MailChimp&#174;, or not click the link yet, or "
+"member is admin in the site - all these and others can cause differences in list of members at MailChimp&#174; and site.\\n"
+"\\nBest way to see if the plugin works is to test manually. Create a new user in your MailChimp&#174; list and check if it will "
+"be created in WordPress. Well, needs confirmation etc... If this do not works, click `%s` button, wait 5-10 min "
+"(MailChimp&#174; can be slow) and test again."
+
+#: ../kc-s2m-mc-free.php:81 ../kc-s2m-mc-free.php:97
+msgid "Re-set MailChimp&#174; site"
+msgstr "Re-set MailChimp&#174; site"
+
+#: ../kc-s2m-mc-free.php:88
+#, php-format
+msgid "List ID %s have %s members, what is not exists in site's DB."
+msgstr "List ID %s have %s members, what is not exists in site's DB."
+
+#: ../kc-s2m-mc-free.php:88 ../kc-s2m-mc-free.php:89 ../kc-s2m-mc-free.php:90
+msgid "Synch it"
+msgstr "Synch it"
+
+#: ../kc-s2m-mc-free.php:88 ../kc-s2m-mc-free.php:89 ../kc-s2m-mc-free.php:90
+msgid "Forget it"
+msgstr "Forget it"
+
+#: ../kc-s2m-mc-free.php:89
+#, php-format
+msgid "%s site's members are not present in the list ID %s<br>(allow some time for people to confirm and then check again)."
+msgstr "%s site's members are not present in the list ID %s<br>(allow some time for people to confirm and then check again)."
+
+#: ../kc-s2m-mc-free.php:90
+#, php-format
+msgid "Synchronize both ways the list ID %s."
+msgstr "Synchronize both ways the list ID %s."
+
+#: ../kc-s2m-mc-free.php:92
+msgid "Synch ALL"
+msgstr "Synch ALL"
+
+#: ../kc-s2m-mc-free.php:92
+msgid "Forget ALL"
+msgstr "Forget ALL"
+
+#: ../kc-s2m-mc-free.php:99
+msgid ""
+"To obtain your MailChimp&#174; List ID(s), log into your MailChimp&#174; and go to the List. Now click the (Settings) link in "
+"the menu. A submenu opens, click the (List name and defaults) row. You will find List ID in red, at right column. Until "
+"MailChimp&#174 change the user interface again..."
+msgstr ""
+"To obtain your MailChimp&#174; List ID(s), log into your MailChimp&#174; and go to the List. Now click the (Settings) link in "
+"the menu. A submenu opens, click the (List name and defaults) row. You will find List ID in red, at right column. Until "
+"MailChimp&#174 change the user interface again..."
+
+#: ../kc-s2m-mc-free.php:100
+msgid "s2Member&#174; plugin"
+msgstr "s2Member&#174; plugin"
+
+#: ../kc-s2m-mc-free.php:101
+msgid "MailChimp&#174; account"
+msgstr "MailChimp&#174; account"
+
+#: ../kc-s2m-mc-free.php:102
+msgid "MailChimp&#174; API Key"
+msgstr "MailChimp&#174; API Key"
+
+#: ../kc-s2m-mc-free.php:103
+msgid "MailChimp&#174; List IDs"
+msgstr "MailChimp&#174; List IDs"
+
+#: ../kc-s2m-mc-free.php:104
+msgid "s2Member&#174; API / List Servers"
+msgstr "s2Member&#174; API / List Servers"
+
+#: ../kc-s2m-mc-free.php:105
+#, php-format
+msgid ""
+"You will need first to install %s. You will need a %s, a %s, your %s and must set some fields at %s page in the "
+"\"MailChimp&#174; Integration\" tab."
+msgstr ""
+"You will need first to install %s. You will need a %s, a %s, your %s and must set some fields at %s page in the "
+"\"MailChimp&#174; Integration\" tab."
+
+#: ../kc-s2m-mc-free.php:105
+msgid "All done, run the synchronization"
+msgstr "All done, run the synchronization"
+
+#: ../kc-s2m-mc-free.php:108
+msgid "See, add and vote for possible new features"
+msgstr "See, add and vote for possible new features"
+
+# Note that this is a "JavaScript alert" text, an "new row" there needs to be "\\n" instead "<br>", so don't change these, please.
+#~ msgid ""
+#~ "In fact, there is no way all accounts to be synchronized, because there is lot of cases and exceptions. MailChimp&#174; can "
+#~ "report events slower, a member can not receive the confirmation email from MailChimp&#174;, or not click the link yet, or "
+#~ "member is admin in the site - all these and others can cause differences in list of members at MailChimp&#174; and site.\\n"
+#~ "\\nBest way to see if the plugin works is to test manually. Create a new user in your MailChimp&#174; list and check if it "
+#~ "will be created in WordPress. Well, needs confirmation etc... If this do not works, click `Re-set MailChimp&#174; site` "
+#~ "button, wait 5-10 min (MailChimp&#174; can be slow) and test again."
+#~ msgstr ""
+#~ "In fact, there is no way all accounts to be synchronized, because there is lot of cases and exceptions. MailChimp&#174; can "
+#~ "report events slower, a member can not receive the confirmation email from MailChimp&#174;, or not click the link yet, or "
+#~ "member is admin in the site - all these and others can cause differences in list of members at MailChimp&#174; and site.\\n"
+#~ "\\nBest way to see if the plugin works is to test manually. Create a new user in your MailChimp&#174; list and check if it "
+#~ "will be created in WordPress. Well, needs confirmation etc... If this do not works, click `Re-set MailChimp&#174; site` "
+#~ "button, wait 5-10 min (MailChimp&#174; can be slow) and test again."
